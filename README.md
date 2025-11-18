@@ -42,18 +42,9 @@ The system aims to enhance home safety with quick and automated reactions.
 ##  System Workflow
 
 
-[Sensors: Flame + Smoke]
-              ↓
-     [Arduino Microcontroller]
-              ↓
-   ┌───────────────────────────┐
-   │ Read sensor values         │
-   │ Compare to thresholds      │
-   │ Trigger buzzer & LEDs      │
-   │ Activate water pump (relay)│
-   │ Update LCD display         │
-   └───────────────────────────┘
-              ↓
+[Sensors: Flame + Smoke] --> 
+[Arduino Microcontroller] --> 
+[Read sensor values, Compare to thresholds, Trigger buzzer & LEDs, Activate water pump (relay), Update LCD display]-->
 [Outputs: Pump, Buzzer, LEDs, LCD]
 
 
